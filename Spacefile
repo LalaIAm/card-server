@@ -1,0 +1,10 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: server
+    src: ./
+    engine: nodejs16
+    dev: nodemon index.js 
+    run: "node index.js"
+    primary: true 
+    public: true
